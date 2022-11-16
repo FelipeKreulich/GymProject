@@ -1,6 +1,7 @@
 import React from 'react'
 import './Programs.css'
 import {programsData} from '../../data/programsData'
+import RightArrow from '../../assets/rightArrow.png'
 
 const Programs = () => {
   return (
@@ -17,7 +18,10 @@ const Programs = () => {
             {program.image}
             <span>{program.heading}</span>
             <span>{program.details}</span>
-            <div className="join-now"></div>
+            <div className="join-now">
+              <span>Entrar Agora</span>
+              <img src={RightArrow} alt="" />
+            </div>
           </div>
         ))}
       </div>
