@@ -19,7 +19,27 @@ const Reasons = () => {
         <img src={image4} alt="" />
       </div>
       <div className="right-r">
-        Right Side
+        <span>Algumas Razões</span>
+        <div>
+          <span className='stroke-text'>
+            Porque 
+          </span>
+          <span> Escolher-nos?</span>
+        </div>
+        <div className='details-r'>
+          <div><img src={tick} alt=""></img><span>Mais de 140+ treinadores</span></div>
+          <div><img src={tick} alt="" /><span>Treine de forma inteligente e rápida</span></div>
+          <div><img src={tick} alt="" /><span>1 programa gratuito para membros novos</span></div>
+          <div><img src={tick} alt="" /><span>Parceiros confiáveis</span></div>
+        </div>
+        <span style={{
+          color: 'var(--gray)', fontWeight: 'normal',
+        }}>NOSSOS PARCEIROS</span>
+        <div className="partners">
+          <img src={nb} alt="" />
+          <img src={nike} alt="" />
+          <img src={adidas} alt="" />
+        </div>
       </div>
     </div>
   )
