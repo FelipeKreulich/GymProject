@@ -11,7 +11,7 @@ export const plansData = [
       </svg>
     ),
     name: "PLANO BÁSICO",
-    price: "25",
+    price: "99,90",
     features: [
       "2 Horas de Exercícios",
       "Consulta grátis com os Coach's",
@@ -30,7 +30,7 @@ export const plansData = [
       </svg>
     ),
     name: "PLANO PREMIUM",
-    price: "30",
+    price: "89,90",
     features: [
       "5 Horas de Exercícios",
       "Consulta grátis com os Coach's",
@@ -49,11 +49,11 @@ export const plansData = [
       </svg>
     ),
     name: "PLANO PRO",
-    price: "45",
+    price: "95,90",
     features: [
       "8 Horas de Exercícios",
       "Consulta grátis com os Coach's",
-      "Acesso às Mercadorias Fitness",
+      "Acesso à Produtos",
     ],
   },
 ];
