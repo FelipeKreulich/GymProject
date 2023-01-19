@@ -17,7 +17,7 @@ const Header = () => {
         style={{backgroundColor: 'var(--appColor)', padding: '0.5rem', borderRadius: '5px'}}
         onClick={() => setMenuOpened(true)}
         >
-          <img src={Bars} alt="" style={{width: '1.5rem', height: '1.5rem'}}/>
+          <img src={Bars} alt="" style={{width: '1rem', height: '1rem'}}/>
         </div>
       ) : (
         <ul className='header-menu'>
