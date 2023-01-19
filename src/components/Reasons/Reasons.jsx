@@ -24,7 +24,7 @@ const Reasons = () => {
           <span className='stroke-text'>
             Porque 
           </span>
-          <span> Escolher-nos?</span>
+          <span> ficar?</span>
         </div>
         <div className='details-r'>
           <div><img src={tick} alt=""></img><span>Mais de 140+ treinadores</span></div>
