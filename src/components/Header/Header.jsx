@@ -40,7 +40,7 @@ const Header = () => {
         <li>
           <Link
           onClick={() => setMenuOpened(false)}
-          to='join-us'
+          to='reasons'
           spy={true}
           smooth={true}
           >Sobre Nós</Link>
