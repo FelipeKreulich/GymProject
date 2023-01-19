@@ -41,4 +41,6 @@ $ git clone <https://github.com/FelipeKreulich/podcastr>
 # Após abrir o terminal digite: npm start
 
 # Após isso, só aguarda a página abrir no seu Browser
+
+# App: https://gym-fitclub.vercel.app
 ```
